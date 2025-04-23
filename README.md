@@ -26,7 +26,7 @@ You NEED to add the first Admin(The Owner) Of the project after that you can add
 
 <p>1. Add Manual Owner Document Direct to MongoDB cluster collection</p>
 
-To add a manual Owner to the E-Banking system, follow these steps:
+To add a manual Owner to the Digital-Banking system, follow these steps:
 
 1. Open your MongoDB cluster and navigate to the Admins collection.
 2. Click on the "Insert Document" button to add a new document to the collection.
@@ -36,7 +36,7 @@ To add a manual Owner to the E-Banking system, follow these steps:
 
 <p>2. Add Owner Through Public API</p>
 
-To create the first owner of the e-bank platform, you can use the ```api/admins/owner/create``` route. This feature is publicly accessible and can be used using Postman, Thunder client, or any other REST client.
+To create the first owner of the Digital-bank platform, you can use the ```api/admins/owner/create``` route. This feature is publicly accessible and can be used using Postman, Thunder client, or any other REST client.
 
 Note: Make sure to comment out or remove this feature from your code after creating the first owner to avoid any security risks.
 
