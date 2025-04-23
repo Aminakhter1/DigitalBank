@@ -109,7 +109,7 @@ For example, in ```Frontend\src\state\features\Account\accountServices.tsx```, y
 ```
 const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://ebank-2t3r.onrender.com/api/account/"
+    ? "<your productuon Url>"
     : "http://localhost:5000/api/account/";
  ```
 
